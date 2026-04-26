@@ -1,0 +1,35 @@
+# Binaries and build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+bin/
+dist/
+build/
+
+# Go coverage and profiling
+*.coverprofile
+coverage.out
+cpu.prof
+mem.prof
+
+# Dependency and workspace files
+vendor/
+go.work
+go.work.sum
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# IDE/editor files
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
